@@ -1,0 +1,13 @@
+{
+  "name": "WheatherApp",
+  "version": "1.0",
+  "description": "Workshop Nodeshool",
+  "manifest_version": 2,
+  "permissions": ["declarativeContent", "storage", "tabs", "activeTab"],
+  "content_security_policy": "script-src 'self' 'sha256-PK0+oytTbAxJr7VkjNUTdksxXhVyVzLKR6UrHreRNAA='",
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Autofiller",
+  "version": "1.0",
+  "description": "Workshop Nodeshool",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
